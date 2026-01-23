@@ -18,22 +18,21 @@ header {
   background-color: #0487d9;
   display: flex;
   align-items: center;
-  vertical-align: middle;
+  justify-content: center;
 }
 .header {
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
   width: 90%;
   height: 60px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 .header a {
   text-decoration: none;
   color: white;
 }
 .logo {
+  width: 250px;
   text-decoration: none;
   color: white;
   display: flex;
@@ -44,7 +43,7 @@ header {
   text-align: center;
 }
 .menu {
-  width: 110px;
+  width: 120px;
   line-height: 40px;
   background-color: #0b5ed7;
   border-radius: 5px;
@@ -52,8 +51,10 @@ header {
   margin: 10px;
 }
 .box_icon {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
   vertical-align: middle;
-  margin-left: 10px;
 }
 .box_text {
   color: white;
@@ -104,7 +105,9 @@ header {
 }
 .login {
   width: 100px;
-  line-height: 60px;
+  line-height: 40px;
+  background-color: #0b5ed7;
+  border-radius: 5px;
   margin: 10px;
   text-align: center;
 }
@@ -112,6 +115,28 @@ header img {
   width: 60px;
   height: 60px;
   margin: 5px;
+}
+nav {
+  width: 85%;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+nav li {
+  display: inline-block;
+  width: 49%;
+  height: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
 }
 section {
   width: 80%;
